@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Destinations</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Explore Destinations</h1>
+    <nav>
+      <ul>
+        <li><a href="#places">Places to Visit</a></li>
+        <li><a href="#packages">Travel Packages</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="places">
+    <h2>Places to Visit</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Paris</h3>
+        <p>The city of love with the Eiffel Tower and rich culture.</p>
+      </div>
+      <div class="card">
+        <h3>Tokyo</h3>
+        <p>A blend of tradition and technology in Japan's capital.</p>
+      </div>
+      <div class="card">
+        <h3>New York</h3>
+        <p>Iconic skyline, Broadway, and Central Park adventures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <h2>Travel Packages</h2>
+    <ul>
+      <li>Paris Delight - 5 Days - $799</li>
+      <li>Tokyo Explorer - 7 Days - $999</li>
+      <li>New York Experience - 4 Days - $699</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+  <img src="images/p1.jpg" alt="Paris">
+  <img src="images/p2.jpg" alt="London">
+  <img src="images/p3.jpg" alt="Rome">
+  <img src="images/p4.jpg" alt="Dubai">
+  
+</div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="queryForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Explore Destinations. All rights reserved.<br><em>“Travel is the only thing you buy that makes you richer.”</em></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
